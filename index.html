@@ -87,7 +87,7 @@
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
     gap: 1.25rem;
   }
 
@@ -130,7 +130,9 @@
     color: var(--accent);
     text-decoration: none;
     font-size: 0.9rem;
-    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding: 0.4rem 0.6rem;
     border-radius: 6px;
     background: rgba(124, 156, 255, 0.08);
