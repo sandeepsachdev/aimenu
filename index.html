@@ -158,6 +158,15 @@
     border-color: var(--danger);
   }
 
+  .project.best {
+    border-color: rgba(255, 215, 0, 0.4);
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.06), var(--card));
+  }
+
+  .project.best:hover {
+    border-color: #ffd700;
+  }
+
   .badge {
     display: inline-block;
     padding: 0.15rem 0.55rem;
@@ -209,9 +218,31 @@
   <main>
     <section class="category">
       <div class="category-header">
+        <span class="icon">⭐</span>
+        <h2>Best Projects</h2>
+        <span class="count">1 project</span>
+      </div>
+      <div class="projects">
+        <article class="project best">
+          <h3>Sydney Parking &amp; Weather <span class="badge live">Live</span></h3>
+          <p class="description">Daily Sydney parking and weather updates at a glance.</p>
+          <div class="links">
+            <a href="https://carefree-adaptation-production-f95a.up.railway.app/" target="_blank" rel="noopener">
+              <span class="label">Hosted:</span> carefree-adaptation-production-f95a.up.railway.app
+            </a>
+            <a href="https://github.com/sandeepsachdev/Dailyupdates/tree/claude/sydney-parking-weather-app-eJyRL" target="_blank" rel="noopener">
+              <span class="label">GitHub:</span> sandeepsachdev/Dailyupdates
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
         <span class="icon">📰</span>
         <h2>News &amp; Events</h2>
-        <span class="count">2 projects</span>
+        <span class="count">1 project</span>
       </div>
       <div class="projects">
         <article class="project">
@@ -223,18 +254,6 @@
             </a>
             <a href="https://github.com/sandeepsachdev/experiment10" target="_blank" rel="noopener">
               <span class="label">GitHub:</span> sandeepsachdev/experiment10
-            </a>
-          </div>
-        </article>
-        <article class="project">
-          <h3>Sydney Parking &amp; Weather <span class="badge live">Live</span></h3>
-          <p class="description">Daily Sydney parking and weather updates at a glance.</p>
-          <div class="links">
-            <a href="https://carefree-adaptation-production-f95a.up.railway.app/" target="_blank" rel="noopener">
-              <span class="label">Hosted:</span> carefree-adaptation-production-f95a.up.railway.app
-            </a>
-            <a href="https://github.com/sandeepsachdev/Dailyupdates/tree/claude/sydney-parking-weather-app-eJyRL" target="_blank" rel="noopener">
-              <span class="label">GitHub:</span> sandeepsachdev/Dailyupdates
             </a>
           </div>
         </article>
